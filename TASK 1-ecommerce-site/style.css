@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #fceabb, #f8b500);
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+header, footer {
+  background: #ff9800;
+  padding: 1em;
+  text-align: center;
+  color: white;
+}
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1em;
+  padding: 1em;
+}
+.product, .cart-item {
+  background: white;
+  border-radius: 10px;
+  padding: 1em;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+button {
+  background: #ff5722;
+  color: white;
+  border: none;
+  padding: 0.5em;
+  border-radius: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,114 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+nav {
+  background-color: #880e4f;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h2 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Main Container */
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Post Form */
+.post-form textarea {
+  width: 100%;
+  height: 60px;
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  resize: none;
+}
+
+.post-form button {
+  margin-top: 10px;
+  background-color: #d81b60;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Post */
+.post {
+  margin-top: 30px;
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+
+.post-meta {
+  font-size: 14px;
+  color: #555;
+  margin-top: 8px;
+}
+
+.post-meta .delete {
+  color: #007BFF;
+  float: right;
+  text-decoration: none;
+}
+
+/* Comment */
+.comment {
+  margin-top: 15px;
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.comment-time {
+  font-size: 12px;
+  color: gray;
+}
+
+/* Comment input */
+input[type="text"] {
+  width: calc(100% - 120px);
+  padding: 8px;
+  margin-top: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.comment-btn {
+  background-color: #d81b60;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  margin-left: 10px;
+  cursor: pointer;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mini Social Media</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <h2>MySocial</h2>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Profile</a></li>
+      <li><a href="#">Settings</a></li>
+    </ul>
+  </nav>
+
+  <!-- Post Input -->
+  <div class="container">
+    <div class="post-form">
+      <h3>What’s on mind</h3>
+      <textarea id="postText" placeholder="Share something..."></textarea>
+      <button onclick="addPost()">Post</button>
+    </div>
+
+    <!-- Posts Area -->
+    <div id="postsArea"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
